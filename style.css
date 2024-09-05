@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E0F7FA;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E0F7FA;
+}
+
+.hero-Sec {
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-color: #E0F7FA;
+}
+
+.hero-Sec>.hero-title {
+    display: inline-block;
+    width: 25%;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #333333;
+    margin-right: 50px;
+}
+
+.hero-Sec>.hero-Content {
+    display: inline-block;
+    width: 50%;
+    font-size: 21px;
+    color: black;
+}
+
+.content-container {
+    background-color: #c3f2f8;
+    padding: 20px;
+}
+
+.content-container>h2 {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    margin: 20px 0px 40px 0px;
+}
+
+.catagory {
+    display: inline;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.catagory>h3 {
+    display: block;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.catagory-motive > .cat-item {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    background-color: #00BCD4;
+    margin: 20px 10px;
+}
+
+.catagory-friendship > .cat-item {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    background-color: #f9e1b6;
+    margin: 20px 10px;
+}
+
+.cat-item>.poster {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.cat-item>.item-heading {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cat-item > .item-content{
+    display: block;
+    width: 100%;
+    font-family: monospace;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.catagory-motive > .cat-item .sell-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.catagory-motive > .cat-item .sell-btn:hover{
+    background-color:#b22dff;
+}
+
+.catagory-friendship > .cat-item .sell-btn {
+    background-color: #b22dff;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.catagory-friendship > .cat-item .sell-btn:hover{
+    background-color: #4CAF50;
+}
